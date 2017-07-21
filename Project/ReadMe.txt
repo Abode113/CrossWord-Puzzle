@@ -1,3 +1,0 @@
-Load Data Button must be pressed first time and for one time ( it will process all data in dictionary and make it ready to use )
-
-you are welcome to play game now ^_^ ...
