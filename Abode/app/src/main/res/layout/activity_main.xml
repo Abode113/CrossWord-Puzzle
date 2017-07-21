@@ -1,0 +1,321 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="@drawable/back1"
+        android:paddingTop="10dp"
+        android:weightSum="1" >
+        <Button
+            android:text="Load_And_Store"
+            android:onClick="Load_And_Store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/B1"
+            android:layout_below="@+id/B2"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/T3"
+            android:textColor="#FFFFFF"
+
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/T4"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/T2"
+            android:textColor="#FFFFFF"
+            />
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center|center_horizontal"
+            android:layout_weight="1.60"
+            >
+<!--
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Load The App"
+                android:onClick="Load_And_Store"
+                android:id="@+id/button"
+                android:background="@drawable/black"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="25"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_margin="20dp" />
+-->
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Single Player"
+                android:onClick="transmission"
+                android:id="@+id/button1"
+                android:background="@drawable/black"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="25"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_margin="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+<!--
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:background="#FFEFD5"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+        -->
+<!-- #### -->
+<!--
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:weightSum="1"
+        android:background="@drawable/back1">
+
+
+
+
+
+
+        <Button
+            android:text="Load_And_Store"
+            android:onClick="Load_And_Store"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/B1"
+            android:layout_below="@+id/B2"
+            />
+            -->
+<!-- #### -->
+        <!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:layout_marginLeft="135dp"
+            android:background="@drawable/style2"
+            android:layout_marginTop="5dp"
+            android:onClick="transmission"
+            />-->
+<!--
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:layout_marginLeft="135dp"
+            android:background="@drawable/style2"
+            android:layout_marginTop="5dp"
+            android:onClick="fetchToFile"
+            />
+-->
+<!-- #### -->
+<!--
+        <TextView
+            android:text=" "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0037ff"
+            android:textSize="20sp"
+            android:fontFamily="'Ubuntu', 'Ubuntu Beta', UbuntuBeta, Ubuntu, 'Bitstream Vera Sans', 'DejaVu Sans', Tahoma, sans-serif"
+            android:id="@+id/T3"
+            />
+        <TextView
+            android:text=" "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0037ff"
+            android:textSize="20sp"
+            android:fontFamily="'Ubuntu', 'Ubuntu Beta', UbuntuBeta, Ubuntu, 'Bitstream Vera Sans', 'DejaVu Sans', Tahoma, sans-serif"
+            android:id="@+id/T4"
+            />
+        <TextView
+            android:text=" "
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF0000"
+            android:textSize="15sp"
+            android:fontFamily="'Ubuntu', 'Ubuntu Beta', UbuntuBeta, Ubuntu, 'Bitstream Vera Sans', 'DejaVu Sans', Tahoma, sans-serif"
+            android:id="@+id/T2"
+            />
+
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center|center_horizontal"
+        android:layout_weight="1.60"
+        >
+
+
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="play game"
+            android:onClick="transmission"
+            android:id="@+id/button1"
+            android:background="@drawable/button"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="25"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_margin="20dp" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+-->
+<!-- #### -->
+<!--
+    </LinearLayout>
+</ScrollView>
+-->
+<!--
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:weightSum="1"
+        android:background="@drawable/back1">
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center|center_horizontal"
+            android:layout_weight="1.60"
+            >
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/T3"
+                />
+            <TextView
+                android:text="TextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/T4"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="play game"
+                android:onClick="transmission"
+                android:id="@+id/button1"
+                android:background="@drawable/button"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="25"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:layout_margin="20dp" />
+                -->
+<!--
+            <Button
+                android:text="Load And Store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/B3"
+                android:onClick="Load_And_Store"
+                />
+   -->
+<!--
+                     <Button
+                         android:layout_width="fill_parent"
+                         android:text="Load data"
+                         android:layout_below="@+id/B2"
+                         android:layout_height="wrap_content"
+                         android:onClick="Load_And_Store"
+                         android:id="@+id/B1"
+                         android:background="@drawable/button"
+                         android:shadowColor="#A8A8A8"
+                         android:shadowDx="0"
+                         android:shadowDy="0"
+                         android:shadowRadius="25"
+                         android:textColor="#FFFFFF"
+                         android:textSize="30sp"
+                         android:layout_marginTop="20dp"
+                         android:layout_marginBottom="20dp"
+                         android:layout_marginRight="80dp"
+                         android:layout_marginLeft="80dp"
+                         />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+-->
